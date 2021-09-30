@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -24,7 +24,7 @@ main header {
   width: 100vw;
   height: 45px;
   -webkit-box-shadow: 2px 0 2px 1px grey;
-          box-shadow: 2px 0 2px 1px grey;
+  box-shadow: 2px 0 2px 1px grey;
   background-color: white;
 }
 
@@ -40,15 +40,15 @@ main header .nav-header a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   list-style: none;
   padding: 5px 20px;
   text-decoration: none;
@@ -68,20 +68,20 @@ main .container {
   height: 95%;
   padding: 3px 10px;
   -webkit-transform: translateY(45px);
-          transform: translateY(45px);
+  transform: translateY(45px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: none;
-      -ms-flex-pack: none;
-          justify-content: none;
+  -ms-flex-pack: none;
+  justify-content: none;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 main .container .form-desc {
@@ -112,7 +112,7 @@ main .container .form-container form {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 main .container .form-container form .text input,
@@ -124,7 +124,7 @@ main .container .form-container form .name input {
   padding: 0.5rem;
   border: none;
   -webkit-box-shadow: 0px 0px 0.8px 0.8px #6e6e6e;
-          box-shadow: 0px 0px 0.8px 0.8px #6e6e6e;
+  box-shadow: 0px 0px 0.8px 0.8px #6e6e6e;
   border-radius: 3px;
   margin-top: 5px;
 }
@@ -135,7 +135,7 @@ main .container .form-container form .phone input:focus,
 main .container .form-container form .name input:focus {
   outline: none;
   -webkit-box-shadow: 0px 0px 1px 1px #af1ad4, 0px 1.4px 2px #ad77bb;
-          box-shadow: 0px 0px 1px 1px #af1ad4, 0px 1.4px 2px #ad77bb;
+  box-shadow: 0px 0px 1px 1px #af1ad4, 0px 1.4px 2px #ad77bb;
 }
 
 main .container .form-container form .phone {
@@ -156,13 +156,13 @@ main .container .form-container form .phone img {
 
 main .container .form-container form .name input {
   -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 main .container .form-container form div {
   width: 90%;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   padding: 1rem;
 }
 
@@ -199,7 +199,7 @@ main .container .form-container form .radio-container div label input::before {
   border-radius: 50%;
   z-index: 1;
   -webkit-transform: translate(2px, 2px);
-          transform: translate(2px, 2px);
+  transform: translate(2px, 2px);
 }
 
 main .container .form-container form .radio-container div label input::after {
@@ -212,11 +212,25 @@ main .container .form-container form .radio-container div label input::after {
   border: 1.5px solid #af1ad4;
 }
 
-main .container .form-container form .radio-container div label input:checked::before {
+main
+  .container
+  .form-container
+  form
+  .radio-container
+  div
+  label
+  input:checked::before {
   opacity: 1;
 }
 
-main .container .form-container form .radio-container div label input:checked::after {
+main
+  .container
+  .form-container
+  form
+  .radio-container
+  div
+  label
+  input:checked::after {
   opacity: 1;
 }
 
@@ -226,7 +240,7 @@ main .container .form-container form .radio-container div label input:checked::a
   height: 100vh;
   margin: 10px 10px;
   -webkit-transform: translateY(45px);
-          transform: translateY(45px);
+  transform: translateY(45px);
 }
 
 .table-data h1 {
@@ -257,16 +271,16 @@ main .container .form-container form .radio-container div label input:checked::a
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   main .container .form-container form .submit {
     position: relative;
     width: 200px;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 }
 
@@ -293,16 +307,16 @@ main .container .form-container form .radio-container div label input:checked::a
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 2;
   font-size: 2rem;
 }
