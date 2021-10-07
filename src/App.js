@@ -1,7 +1,7 @@
 import React, {useEffect, useState}  from "react"
 import Form from "./components/Form"
 import Table from "./components/Table"
-import { HashRouter as Router,Switch,Route,Link } from "react-router-dom"
+import { BrowserRouter as Router,Switch,Route,Link } from "react-router-dom"
 import "./style/style.css"
 
 const getLocalStorage = ()=>{
